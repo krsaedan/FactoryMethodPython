@@ -1,7 +1,7 @@
 from azure.cosmos import exceptions, CosmosClient, PartitionKey
 
-endpoint = "https://cosmosdb-krsaedan.documents.azure.com:443/"
-key = 'j7Lzfp8iSxb1mHcHVdEkS6sL7y7jZxNHzY2Myzmu6AlEr98YAho3vXuok4asUWb1maSCtVWFYZ6MM5ppdaJFKg=='
+endpoint = "endpoint"
+key = 'keyinbase64'
 
 client = CosmosClient(endpoint, key)
 
